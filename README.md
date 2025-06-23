@@ -20,12 +20,6 @@
 > 1. Скачайте LTS‑дистрибутив с [https://nodejs.org](https://nodejs.org) (зелёная кнопка «Recommended for most users»).
 > 2. Запустите установщик → Next → Next — и всё.
 >
-> ### Ubuntu / Debian
->
-> ```bash
-> $ curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-> $ sudo apt install -y nodejs         # получаем node и npm
-> ```
 >
 > ### NVM (кросс‑платформенный способ)
 >
@@ -49,10 +43,10 @@
 
 ```bash
 # 1. Клонируем репозиторий
-$ git clone https://github.com/<ваш‑логин>/veles-dca-calculator.git
+$ git clone https://github.com/svgerasimov/veles-dca-calculator.git
 $ cd veles-dca-calculator
 
-# 2. Запускаем (Node >= 14)
+# 2. Запускаем
 $ node velez_dca_calc_v1.js
 ```
 
@@ -110,9 +104,3 @@ veles-dca-calculator/
 * [ ] Вывод в CSV/JSON для импорта в Google Sheets
 
 PR и идеи приветствуются!
-
----
-
-## License
-
-MIT
